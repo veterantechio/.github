@@ -1,0 +1,217 @@
+# These settings are synced to GitHub by https://probot.github.io/apps/settings/
+
+repository:
+  # See https://developer.github.com/v3/repos/#edit for all available settings.
+
+  # The name of the repository. Changing this will rename the repository
+  name: .github
+
+  # A short description of the repository that will show up on GitHub
+  description: Central repository for GitHub settings for all repos in the organization
+
+  # A URL with more information about the repository
+  homepage: https://rockytopsolutions.com/
+
+  # Either `true` to make the repository private, or `false` to make it public.
+  private: false
+
+  # Either `true` to enable issues for this repository, `false` to disable them.
+  has_issues: true
+
+  # Either `true` to enable projects for this repository, or `false` to disable them.
+  # If projects are disabled for the organization, passing `true` will cause an API error.
+  has_projects: true
+
+  # Either `true` to enable the wiki for this repository, `false` to disable it.
+  has_wiki: true
+
+  # Either `true` to enable downloads for this repository, `false` to disable them.
+  has_downloads: false
+
+  # Updates the default branch for this repository.
+  default_branch: master
+
+  # Either `true` to allow squash-merging pull requests, or `false` to prevent
+  # squash-merging.
+  allow_squash_merge: false
+
+  # Either `true` to allow merging pull requests with a merge commit, or `false`
+  # to prevent merging pull requests with merge commits.
+  allow_merge_commit: false
+
+  # Either `true` to allow rebase-merging pull requests, or `false` to prevent
+  # rebase-merging.
+  allow_rebase_merge: true
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: 'bug'
+    color: 'CC0000'
+    description: An issue with the system 🐛.
+
+  - name: 'feature'
+    color: '336699'
+    description: New functionality.
+
+  - name: 'analytics'
+    color: 'bf8c40'
+    description: Issues regarding some form of analytics. Google Anlytics etc.
+
+  - name: 'api-gateway'
+    color: 'ffbf00'
+    description: Issues regarding AWS API Gateway configuration, deployments, etc
+
+  - name: 'authentication'
+    color: 'ef8b73'
+    description: Issues regarding some sort of authentication work
+
+  - name: 'authorization'
+    color: 'ef8c33'
+    description: Issues regarding some sort of authorization work
+
+  - name: 'ci/cd'
+    color: '000000'
+    description: Issues related to continuous integration or continuous deployments
+
+  - name: 'cloud-functions'
+    color: 'ff8000'
+    description: Issues related to serverless cloud functions (e.g. AWS Lambda)
+
+  - name: 'configuration'
+    color: 'a7cbe8'
+    description: Issues related to configuration changes
+
+  - name: 'database'
+    color: '0d46f2'
+    description: Issues related to database chnages or updates
+
+  - name: 'docker'
+    color: '00bfff'
+    description: Issues related to Docker and/or container based changes
+
+  - name: 'documentation'
+    color: 'f98bc6'
+    description: Issues related to documentation changes or updates
+
+  - name: 'duplicate'
+    color: 'cfd3d7'
+    description: Issues that are a duplicate bug/request/change of another issue
+
+  - name: 'enhancement'
+    color: 'a2eeef'
+    description: Issues related to enhancements to our project in some way
+
+  - name: 'invalid'
+    color: 'e4e669'
+    description: Issues that are invalid and not going to solve any issue
+
+  - name: 'marketing'
+    color: 'c7fc07'
+    description: Issues that are related trying to market our offerings
+
+  - name: 'mobile'
+    color: 'f7b7f0'
+    description: Issues that are related to all mobile applications
+
+  - name: 'mobile:ios'
+    color: 'f7b7f0'
+    description: Issues that are related to only iOS applications
+
+  - name: 'mobile:android'
+    color: 'f7b7f0'
+    description: Issues that are related to only android applications
+
+  - name: 'monitoring'
+    color: '8b93d6'
+    description: Issues that are related to creating, updating, or deleting some sort of monitoring solution
+
+  - name: 'priority:high'
+    color: '990000'
+    description: Issues that are extremely important to complete and urgent
+
+  - name: 'priority:medium'
+    color: 'fccb46'
+    description: Issues that are important but not extremely important nor urgent
+
+  - name: 'priority:low'
+    color: '67db93'
+    description: Issues that are nice to haves but not a priority
+
+  - name: 'revenue'
+    color: '4fce25'
+    description: Issues that are related to generating income
+
+  - name: 'security'
+    color: 'e5245e'
+    description: Issues that are related to security needs
+
+  - name: 'seo'
+    color: 'fffbba'
+    description: Issues that are related to search engine optimization
+
+  - name: 'stale'
+    color: 'ffffff'
+    description: Issues and PR's that havent had any activity for a certain period of time
+
+  - name: 'testing'
+    color: 'ffbb91'
+    description: Issues that are related to unit testing, E2E testing, or any kind of testing
+
+  - name: 'ui/ux'
+    color: '49229e'
+    description: Issues that are related some sort of user interface or user design change
+
+  - name: 'wontfix'
+    color: 'ffffff'
+    description: Issues that are not going to be addressed
+
+# Milestones: define milestones for Issues and Pull Requests
+milestones:
+  - title: 'Sprint 1'
+    description: 'First milestone of setting up and getting repository and project configured'
+    # The state of the milestone. Either `open` or `closed`
+    state: open
+
+branches:
+  - name: master
+    # https://developer.github.com/v3/repos/branches/#update-branch-protection
+    # Branch Protection settings. Set to null to disable
+    protection:
+      # Required. Require at least one approving review on a pull request, before merging. Set to null to disable.
+      required_pull_request_reviews: null
+      # Required. Require status checks to pass before merging. Set to null to disable
+      required_status_checks: null
+      # Required. Enforce all configured restrictions for administrators. Set to true to enforce required status checks for repository administrators. Set to null to disable.
+      enforce_admins: true
+      # Require GPG signed commits
+      required_signatures: true
+      # Required. Restrict who can push to this branch. Team and user restrictions are only available for organization-owned repositories. Set to null to disable.
+      restrictions: null
+  - name: staging
+    # https://developer.github.com/v3/repos/branches/#update-branch-protection
+    # Branch Protection settings. Set to null to disable
+    protection:
+      # Required. Require at least one approving review on a pull request, before merging. Set to null to disable.
+      required_pull_request_reviews: null
+      # Required. Require status checks to pass before merging. Set to null to disable
+      required_status_checks: null
+      # Required. Enforce all configured restrictions for administrators. Set to true to enforce required status checks for repository administrators. Set to null to disable.
+      enforce_admins: true
+      # Require GPG signed commits
+      required_signatures: true
+      # Required. Restrict who can push to this branch. Team and user restrictions are only available for organization-owned repositories. Set to null to disable.
+      restrictions: null
+  - name: development
+    # https://developer.github.com/v3/repos/branches/#update-branch-protection
+    # Branch Protection settings. Set to null to disable
+    protection:
+      # Required. Require at least one approving review on a pull request, before merging. Set to null to disable.
+      required_pull_request_reviews: null
+      # Required. Require status checks to pass before merging. Set to null to disable
+      required_status_checks: null
+      # Required. Enforce all configured restrictions for administrators. Set to true to enforce required status checks for repository administrators. Set to null to disable.
+      enforce_admins: true
+      # Require GPG signed commits
+      required_signatures: true
+      # Required. Restrict who can push to this branch. Team and user restrictions are only available for organization-owned repositories. Set to null to disable.
+      restrictions: null

@@ -1,0 +1,10 @@
+---
+closeComment: "This issue has been marked stale for 2 weeks without any activity. So its probably not important enough to keep around. You can reopen if it indeed is that important. :)\n"
+daysUntilClose: 14
+daysUntilStale: 60
+exemptLabels:
+  - 'pinned'
+  - 'security'
+  - "priority:high"
+markComment: "This issue has been automatically marked as stale because it has not had activity in 60 days. It will be automatically closed in 2 weeks if no further activity occurs. Thank you for your contributions.\n"
+staleLabel: stale
