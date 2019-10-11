@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fac123e-2f51-4328-bc7f-276a79f4eb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE/pull_request_template.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +54,7 @@
       <workItem from="1570573594034" duration="7920000" />
       <workItem from="1570643602933" duration="690000" />
       <workItem from="1570664012955" duration="443000" />
-      <workItem from="1570764606648" duration="5186000" />
+      <workItem from="1570764606648" duration="9567000" />
     </task>
     <servers />
   </component>
