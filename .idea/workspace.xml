@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fac123e-2f51-4328-bc7f-276a79f4eb1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/enhancement_request.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="YAML File" />
+        <option value="Markdown File" />
       </list>
     </option>
   </component>
@@ -53,6 +54,7 @@
       <workItem from="1570573594034" duration="7920000" />
       <workItem from="1570643602933" duration="690000" />
       <workItem from="1570664012955" duration="443000" />
+      <workItem from="1570764606648" duration="371000" />
     </task>
     <servers />
   </component>
