@@ -10,7 +10,7 @@ repository:
   description: Central repository for GitHub settings for all repos in the organization
 
   # A URL with more information about the repository
-  homepage: https://rockytopsolutions.com/
+  homepage: https://veterantech.io/
 
   # Either `true` to make the repository private, or `false` to make it public.
   private: false
@@ -29,7 +29,7 @@ repository:
   has_downloads: false
 
   # Updates the default branch for this repository.
-  default_branch: master
+  default_branch: main
 
   # Either `true` to allow squash-merging pull requests, or `false` to prevent
   # squash-merging.
@@ -173,7 +173,7 @@ milestones:
     state: open
 
 branches:
-  - name: master
+  - name: main
     # https://developer.github.com/v3/repos/branches/#update-branch-protection
     # Branch Protection settings. Set to null to disable
     protection:
