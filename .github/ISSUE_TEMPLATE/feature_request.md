@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest a feature or idea for this project
 title: ''
 labels: feature
-assignees: rts-corey-walker
+assignees: vt-cwalker
 ---
 
 # Feature Request

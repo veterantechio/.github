@@ -3,7 +3,7 @@ name: Enhancement request
 about: Suggest an enhancement for an existing feature
 title: ''
 labels: enhancement
-assignees: rts-corey-walker
+assignees: vt-cwalker
 ---
 
 # Enhancement Request

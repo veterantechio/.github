@@ -1,4 +1,4 @@
-# Contributing to Rocky Top Solutions' Projects
+# Contributing to Veteran Technologies' Projects
 
 > This project has a [Code of Conduct][coc].
 > By interacting with this repository, organisation, or community you agree to
@@ -20,8 +20,8 @@ Please take just a few moments to read the following guidelines before contribut
 *   [Submitting a pull request](#submitting-a-pull-request)
 *   [Resources](#resources)
 
-Rocky Top Solutions consists of several sub-businesses that all have their own separate
-projects/microservices most of white are relatively small and narrowly focused on one 
+Veteran Technologies consists of several sub-businesses that all have their own separate
+projects/microservices most of which are relatively small and narrowly focused on one 
 particular working unit of the overall application.
 Try and pick the right place and project to contribute to so we can help you faster.
 
@@ -58,7 +58,7 @@ See [`SUPPORT.md`][support] on how to get help.
 
 ## Submitting an issue or bug
 
-*   The [issue tracker](https://github.com/RockyTopSolutions/.github/issues) is for issues.
+*   The [issue tracker](https://github.com/veterantechio/.github/issues) is for issues.
     See [`SUPPORT.md`][support] on how to get help.
 *   Search the issue tracker (including closed issues) before opening a new
     issue

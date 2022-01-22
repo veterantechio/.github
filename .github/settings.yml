@@ -12,9 +12,6 @@ repository:
   # A URL with more information about the repository
   homepage: https://veterantech.io/
 
-  # Either `true` to make the repository private, or `false` to make it public.
-  private: false
-
   # Either `true` to enable issues for this repository, `false` to disable them.
   has_issues: true
 
