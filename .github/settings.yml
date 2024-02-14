@@ -49,15 +49,8 @@ repository:
 
   # Either `true` to enable vulnerability alerts, or `false` to disable
   # vulnerability alerts.
-  enable_vulnerability_alerts: false
+  enable_vulnerability_alerts: true
   
-  # Either `true` to enable automated security fixes, or `false` to disable
-  # automated security fixes.
-  enable_automated_security_fixes: false
-
-  # Either `true` to enable vulnerability alerts, or `false` to disable
-  # vulnerability alerts.
-  enable_vulnerability_alerts: false
   
 # Labels: define labels for Issues and Pull Requests
 labels:
@@ -71,7 +64,7 @@ labels:
 
   - name: 'analytics'
     color: 'bf8c40'
-    description: Issues regarding some form of analytics. Google Anlytics etc.
+    description: Issues regarding some form of analytics. Google Analytics etc.
 
   - name: 'api-gateway'
     color: 'ffbf00'
@@ -99,11 +92,11 @@ labels:
 
   - name: 'database'
     color: '0d46f2'
-    description: Issues related to database chnages or updates
+    description: Issues related to database changes or updates
 
   - name: 'docker'
     color: '00bfff'
-    description: Issues related to Docker and/or container based changes
+    description: Issues related to Docker and/or container-based changes
 
   - name: 'documentation'
     color: 'f98bc6'
@@ -123,7 +116,7 @@ labels:
 
   - name: 'marketing'
     color: 'c7fc07'
-    description: Issues that are related trying to market our offerings
+    description: Issues that are related to trying to market our offerings
 
   - name: 'mobile'
     color: 'f7b7f0'
@@ -135,7 +128,7 @@ labels:
 
   - name: 'mobile:android'
     color: 'f7b7f0'
-    description: Issues that are related to only android applications
+    description: Issues that are related to only Android applications
 
   - name: 'monitoring'
     color: '8b93d6'
@@ -147,11 +140,11 @@ labels:
 
   - name: 'priority:medium'
     color: 'fccb46'
-    description: Issues that are important but not extremely important nor urgent
+    description: Issues that are important but not extremely important or urgent
 
   - name: 'priority:low'
     color: '67db93'
-    description: Issues that are nice to haves but not a priority
+    description: Issues that are nice to have but not a priority
 
   - name: 'revenue'
     color: '4fce25'
@@ -167,7 +160,7 @@ labels:
 
   - name: 'stale'
     color: 'ffffff'
-    description: Issues and PR's that havent had any activity for a certain period of time
+    description: Issues and PRs that haven't had any activity for a certain period of time
 
   - name: 'testing'
     color: 'ffbb91'
@@ -175,7 +168,7 @@ labels:
 
   - name: 'ui/ux'
     color: '49229e'
-    description: Issues that are related some sort of user interface or user design change
+    description: Issues that are related to some sort of user interface or user design change
 
   - name: 'wontfix'
     color: 'ffffff'
@@ -198,7 +191,7 @@ branches:
       required_status_checks:
         # Required. Require branches to be up to date before merging.
         strict: true
-        # Required. The list of status checks to require in order to merge into this branch
+        # Required. The list of status checks to require to merge into this branch
         contexts: []
       # Required. Enforce all configured restrictions for administrators. Set to true to enforce required status checks for repository administrators. Set to null to disable.
       enforce_admins: true
@@ -224,7 +217,7 @@ branches:
       required_status_checks:
         # Required. Require branches to be up to date before merging.
         strict: true
-        # Required. The list of status checks to require in order to merge into this branch
+        # Required. The list of status checks to require to merge into this branch
         contexts: []
       # Required. Enforce all configured restrictions for administrators. Set to true to enforce required status checks for repository administrators. Set to null to disable.
       enforce_admins: true
