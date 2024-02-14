@@ -45,7 +45,7 @@ repository:
 
   # Either `true` to enable automated security fixes, or `false` to disable
   # automated security fixes.
-  enable_automated_security_fixes: false
+  enable_automated_security_fixes: true
 
   # Either `true` to enable vulnerability alerts, or `false` to disable
   # vulnerability alerts.
@@ -226,7 +226,8 @@ branches:
       # Prevent merge commits from being pushed to matching branches
       required_linear_history: true
       # Required. Restrict who can push to this branch. Team and user restrictions are only available for organization-owned repositories. Set to null to disable.
-      restrictions: null
+      restrictions:
+        users: ['vt-cwalker']
   - name: development
     # https://developer.github.com/v3/repos/branches/#update-branch-protection
     # Branch Protection settings. Set to null to disable
@@ -252,4 +253,5 @@ branches:
       # Prevent merge commits from being pushed to matching branches
       required_linear_history: true
       # Required. Restrict who can push to this branch. Team and user restrictions are only available for organization-owned repositories. Set to null to disable.
-      restrictions: null
+      restrictions:
+        users: ['vt-cwalker']
