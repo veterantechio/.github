@@ -1,0 +1,23 @@
+name: Veteran Technologies Organization CI
+
+permissions:
+  id-token: write
+  
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v5
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@main # Or a specific version
+        with:
+          role-to-assume: arn:aws:iam::896913367821:role/vt_github_actions_dev_role
+          aws-region: $AWS_REGION
